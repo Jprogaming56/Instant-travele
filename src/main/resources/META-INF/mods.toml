@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="instanttravel"
+version="1.0.0"
+displayName="Instant Travel"
+description='''
+Cuts the wait when travelling between dimensions (made for AiT TARDIS doors, but works with anything that changes dimension).
+Keeps the area you just left loaded so the trip back is instant, and can skip the "Loading terrain" screen.
+'''
+displayTest="IGNORE_SERVER_VERSION"
+
+[[dependencies.instanttravel]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.instanttravel]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
